@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webie - Your Virtual Pet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="tomagotchi-container">
+        <div class="screen">
+            <div id="pet" class="pet-happy">😊</div>
+            <p id="message">Hi! I'm Webie. Take care of me!</p>
+        </div>
+        <div class="stats-container">
+            <div class="stat">
+                <label>Health:</label>
+                <progress id="health-bar" max="100" value="100"></progress>
+            </div>
+            <div class="stat">
+                <label>Hunger:</label>
+                <progress id="hunger-bar" max="100" value="100"></progress>
+            </div>
+            <div class="stat">
+                <label>Happiness:</label>
+                <progress id="happiness-bar" max="100" value="100"></progress>
+            </div>
+            <div class="stat">
+                <label>Cleanliness:</label>
+                <progress id="cleanliness-bar" max="100" value="100"></progress>
+            </div>
+            <div class="stat">
+                <label>Strength:</label>
+                <progress id="strength-bar" max="200" value="10"></progress>
+            </div>
+        </div>
+        <div class="actions-container">
+            <button id="feed-btn" title="Feed Webie">🍔</button>
+            <button id="play-btn" title="Play with Webie">🎮</button>
+            <button id="clean-btn" title="Clean up after Webie">🧼</button>
+            <button id="train-btn" title="Train Webie">💪</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
